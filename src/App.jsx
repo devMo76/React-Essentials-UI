@@ -10,26 +10,6 @@ export default function App() {
         <CoreConcepts />
         <Examples />
       </main>
-
-
-      export default function Button({children, mode ='filled', Icon, ...props}) {
- 
- const classes = `button ${mode}-button ${Icon ? 'icon-button' : ''}`;
-
-    return(
-            <button className={classes} {...props}>
-                {Icon && (<span className="button-icon">
-                <Icon /></span>)}
-                
-                <span>{children}</span>
-            </button>
-        )
- 
- 
-}
-
-
-
     </>
   );
 }
